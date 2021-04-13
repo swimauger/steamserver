@@ -1,10 +1,9 @@
 {
   "name": "steamserver",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Used for downloading and managing steam game servers",
   "bin": {
-    "steamserver": "./steamserver.js",
-    "ss": "./steamserver.js"
+    "steamserver": "./steamserver.js"
   },
   "license": "MIT",
   "dependencies": {
