@@ -1,0 +1,19 @@
+{
+  "name": "steamserver",
+  "version": "1.0.0",
+  "description": "Used for downloading and managing steam game servers",
+  "bin": {
+    "steamserver": "./steamserver.js",
+    "ss": "./steamserver.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cli-progress": "^3.9.0",
+    "inquirer": "^8.0.0",
+    "inquirer-autocomplete-prompt": "^1.3.0",
+    "lookpath": "^1.2.0",
+    "ora": "^5.4.0",
+    "puppeteer": "^8.0.0",
+    "steamcmd-interface": "^3.0.0"
+  }
+}
